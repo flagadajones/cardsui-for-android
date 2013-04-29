@@ -79,7 +79,7 @@ public class CardStack extends AbstractCard {
 			card = cards.get(i);
 			cardView = null;
 			RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(
-					RelativeLayout.LayoutParams.MATCH_PARENT,
+					RelativeLayout.LayoutParams.WRAP_CONTENT,
 					RelativeLayout.LayoutParams.WRAP_CONTENT);
 
 			int topPx = 0;

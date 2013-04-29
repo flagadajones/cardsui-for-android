@@ -103,9 +103,9 @@ public class CardUI extends FrameLayout {
 		mStacks = new ArrayList<AbstractCard>();
 		//inflate a different layout, depending on the number of columns
 		if (mColumnNumber == 1) {
-			inflater.inflate(R.layout.cards_view, this);
+			View v=inflater.inflate(R.layout.cards_view, this);
 			// init observable scrollview
-			mListView = (QuickReturnListView) findViewById(R.id.listView);
+			mListView = (QuickReturnListView) v.findViewById(R.id.listView);
 		} else {
 			//initialize the mulitcolumn view
 			inflater.inflate(R.layout.cards_view_multicolumn, this);

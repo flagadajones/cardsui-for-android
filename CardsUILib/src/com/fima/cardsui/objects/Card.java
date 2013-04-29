@@ -77,7 +77,7 @@ public abstract class Card extends AbstractCard {
 		// ((TextView) view.findViewById(R.id.title)).setText(this.title);
 
 		LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-				LinearLayout.LayoutParams.MATCH_PARENT,
+				LinearLayout.LayoutParams.WRAP_CONTENT,
 				LinearLayout.LayoutParams.WRAP_CONTENT);
 		int bottom = Utils.convertDpToPixelInt(context, 12);
 		lp.setMargins(0, 0, 0, bottom);
@@ -104,7 +104,7 @@ public abstract class Card extends AbstractCard {
 		// ((TextView) view.findViewById(R.id.title)).setText(this.title);
 
 		LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-				LinearLayout.LayoutParams.MATCH_PARENT,
+				LinearLayout.LayoutParams.WRAP_CONTENT,
 				LinearLayout.LayoutParams.WRAP_CONTENT);
 		int bottom = Utils.convertDpToPixelInt(context, 12);
 		lp.setMargins(0, 0, 0, bottom);
@@ -131,7 +131,7 @@ public abstract class Card extends AbstractCard {
 		// ((TextView) view.findViewById(R.id.title)).setText(this.title);
 
 		LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-				LinearLayout.LayoutParams.MATCH_PARENT,
+				LinearLayout.LayoutParams.WRAP_CONTENT,
 				LinearLayout.LayoutParams.WRAP_CONTENT);
 		int bottom = Utils.convertDpToPixelInt(context, 12);
 		lp.setMargins(0, 0, 0, bottom);
